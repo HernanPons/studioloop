@@ -1,0 +1,94 @@
+.marginNavbar {
+    margin: 0px 70px 0 70px;
+}
+
+.nav-link {
+    margin: 0px 10px 0 10px;
+
+}
+
+.image {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.text-image {
+    color: white;
+    border: solid white 2px;
+    width: 400px;
+    height: 170px;
+    margin: 70px 70px 70px 70px;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.theleader {
+    margin: 170px 70px 70px 70px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-leader {
+    margin-left: -150px;
+    background-color: white;
+    padding: 70px 70px 0 70px;
+}
+
+.creations {
+    margin: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.creations, button {
+    height: 40px;
+}
+
+
+
+.img-hover-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    filter: brightness(0.7)
+}
+.img-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+.image-text {
+    position: absolute;
+    bottom: 25px;
+    left: 40%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
