@@ -4,7 +4,6 @@
 
 .nav-link {
     margin: 0px 10px 0 10px;
-
 }
 
 .image {
@@ -25,7 +24,7 @@
     border: solid white 2px;
     width: auto;
     height: 170px;
-    margin: 70px 500px 70px 70px;
+    margin: 70px 800px 70px 70px;
     padding-left: 50px;
     padding-top: 30px;
     font-family: 'Josefin Sans', sans-serif;
@@ -154,5 +153,7 @@
         margin: 20px;
     }
 
-    
+    .marginNavbar {
+        margin: 0px 10px 0 10px !important;
+    }
 }
