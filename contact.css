@@ -1,0 +1,80 @@
+.marginNavbar {
+    margin: 0px 70px 0 70px;
+}
+
+.nav-link {
+    margin: 0px 10px 0 10px;
+}
+
+.image-contact {
+    background-image: url("images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+
+.contact-container {
+    border: 2px solid rgb(50, 74, 238);
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    gap: 10px;
+    background-image: url('/images/mobile/image-curiosity.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay; /
+}
+.contact-name {
+    margin-bottom: -10px;
+}
+.contact-email {
+    margin-bottom: -10px;
+}
+.contact-message {
+    margin-bottom: -10px;
+}
+.input-message {
+    height: 10em;
+    vertical-align: top;
+    resize: none;
+    height: 100px
+}
+
+.button-submit {
+    width: 5em;
+    margin-top: 20px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+
+
