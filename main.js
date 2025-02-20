@@ -5,9 +5,9 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
     if (name === "" || email === "" || message === "") {
         alert("Please fill in all fields.");
-        event.preventDefault(); // Evita que el formulario se envíe si falta algún campo
+        event.preventDefault();
     } else {
         alert("Message sent successfully!");
-        this.reset(); // Limpia el formulario
+        this.reset();
     }
 });
